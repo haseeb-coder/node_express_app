@@ -1,0 +1,15 @@
+docttype
+html 
+    head 
+    title 
+    link(rel="stylesheet", href="static/css/login.css")
+    body 
+        #container 
+            form(action="/login" method="post")
+                h1 welcom login page
+                label Username: 
+                input(type="text" name="username")
+                label Password:
+                input(type="password" name="password")
+                input(type="submit" value="Login")
+            
